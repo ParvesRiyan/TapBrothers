@@ -1,0 +1,51 @@
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+}
+
+.heroRight img {
+  width: 50vw;
+}
+
+.promiseHeader {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.promiseHeader img {
+  width: 5rem;
+}
+
+.secoundHero {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: rgba(156, 156, 156, 0.5);
+  padding: 3rem 0;
+}
+
+.right img {
+  width: 30rem;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+.left {
+  width: 40vw;
+}
+
+.thirdHero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+}

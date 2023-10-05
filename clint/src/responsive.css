@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+  .heroSection,
+  .thirdHero,
+  .headerText,
+  .profileImg,
+  .adminParsonalData,
+  .investmentDetails,
+  .DashboardDetailsCard,
+  .goal,
+  .achivment,
+  .Navbar,
+  .parsonalDetails,
+  .AllTransactions,
+  .ModalRegisterForm,
+  .contactBox {
+    display: flex !important;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .DashboardDetailsCard {
+    width: 100vw;
+  }
+  .headerFront {
+    font-size: 2rem !important;
+    margin-top: 1rem !important;
+  }
+  .addNoteInputs {
+    min-width: 15rem;
+  }
+  .DashboardCard {
+    width: 70vw !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heroLeft {
+    margin-left: 1rem !important;
+  }
+  .pera {
+    font-size: 1rem !important;
+  }
+  .profileImg {
+    display: flex !important;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

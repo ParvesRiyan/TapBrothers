@@ -1,0 +1,82 @@
+.profileHeader {
+  background-image: url("../../../image/pngegg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  margin-top: 6rem;
+}
+.profileContainer {
+  background-color: #303f9f;
+}
+
+.headerText {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 8rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation-name: changeThecolor;
+  animation-duration: 5s;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileImg {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.adminParsonalData {
+  display: flex;
+  align-items: center;
+}
+
+.profileImg img {
+  border: 1rem solid #303f9f;
+  width: 20vw;
+  height: 35vh;
+  border-radius: 50%;
+  margin-top: 10vh;
+  margin-right: 2vw;
+}
+
+table,
+th,
+td {
+  background-color: #3f51b5;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  text-align: center;
+}
+.investorTable td {
+  padding: 3vh 5vw;
+}
+
+.investmentDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem;
+}
+.Investment {
+  border: 2px solid #ffc107;
+  padding: 1.5vw;
+  border-radius: 5px;
+}
+.addInvestment {
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+@keyframes changeThecolor {
+  from {
+    color: rgb(0, 195, 255);
+  }
+  to {
+    color: rgb(51, 255, 0);
+  }
+}

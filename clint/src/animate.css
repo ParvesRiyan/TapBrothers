@@ -1,0 +1,54 @@
+.animateL {
+  animation: bounceInLeft 1s ease;
+}
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  60% {
+    transform: translateX(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the image with the "animate" class */
+.animateR {
+  animation: bounceInRight 1s ease;
+}
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  60% {
+    transform: translateX(-25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* header aminate from top */
+/* Apply the animation to the profileHeader with the "animate" class */
+.profileHeader.animateTop {
+  animation: slideInDown 2s ease;
+}
+
+/* Define a new keyframes animation for the profileHeader */
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

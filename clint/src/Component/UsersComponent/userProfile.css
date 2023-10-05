@@ -1,0 +1,54 @@
+.userProfile {
+  min-height: 100vh;
+  background-color: #303f9f;
+
+  padding: 2vmax;
+  box-sizing: border-box;
+  margin-top: 5rem;
+}
+
+.userProfileHeader {
+  text-align: center;
+  border-bottom: 2px solid #0084ff;
+  width: fit-content;
+  margin: 0 auto;
+}
+.avatar {
+  text-align: right;
+}
+.AdminAdditionSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vmax;
+}
+.parsonalDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+.parsonalDetails h2 i {
+  font-size: 1rem;
+}
+.AllTransactions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.parsonalDetails img {
+  width: 20vw;
+  height: 30vh;
+  border: 5px solid #525151;
+  border-radius: 30px;
+  margin-left: 4vw;
+}
+
+.deleteProfile {
+  padding: 2vmax;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #303f9f;
+}

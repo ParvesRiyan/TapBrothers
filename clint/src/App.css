@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffc107 !important;
+  background-color: #303f9f;
+}
+
+input:focus {
+  outline: none;
+}

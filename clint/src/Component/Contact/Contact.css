@@ -1,0 +1,46 @@
+.contact {
+  text-align: center;
+  align-items: center;
+  background-color: #303f9f;
+  margin-top: 5rem;
+}
+.contact-Container {
+  background-color: #3f51b5;
+  width: fit-content;
+  padding: 2vmax;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-Container h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.contactForm div input {
+  padding: 10px;
+  width: 20vw;
+  margin: 1rem;
+  font-size: 16px;
+}
+.contactForm div textarea {
+  padding: 10px;
+  width: 20vw;
+  margin: 1rem;
+  font-size: 16px;
+}
+
+.contactForm > div > button:focus {
+  outline: none;
+  box-shadow: 1px 1px 8px 1px #a8a1a1;
+}
+.contactForm div button {
+  padding: 15px;
+  background-color: #303f9f;
+  color: #ffc107;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
