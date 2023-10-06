@@ -15,6 +15,6 @@ cloudinary.config({
 
 app.listen(process.env.PORT, () => {
   console.log(
-    `app is running on port ${process.env.PORT} in ${process.env.NODE_ENV} mood`
+    `app is running on port ${process.env.PORT}`
   );
 });
