@@ -2,7 +2,6 @@ import React from 'react'
 import "./Header.css"
 import { Link } from "react-router-dom"
 import { useSelector } from 'react-redux';
-import AdminOption from "../AdminProfile/AdminOption.jsx"
 
 const Header = () => {
     const { isAuthenticated } = useSelector((state) => state.admin);
@@ -21,10 +20,8 @@ const Header = () => {
                     <Link to="/goalandachivment">Goal & Achivment</Link>
                     <Link to="/contact">Contact</Link>
                     {isAuthenticated ? null : <Link to="/loginadmin">Login</Link>}
-                    {/* {isAuthenticated ? <Search /> : null} */}
                 </div>
                 <div className="nav-right">
-                    {/* {isAuthenticated ? <AdminOption /> : null} */}
                 </div>
             </div>
         </>

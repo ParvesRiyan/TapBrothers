@@ -18,7 +18,6 @@ const Footer = () => {
         bottom: '20px', // Adjust the distance from the bottom
         right: '20px', // Align to the right
         backgroundColor: 'transparent',
-        border: 'none',
         cursor: 'pointer',
         zIndex: 1, // Set a higher z-index to ensure it's above other content
         color: "#ffc107",

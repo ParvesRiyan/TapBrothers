@@ -38,7 +38,7 @@ const UsersDetails = () => {
     useEffect(() => {
         dispatch(GetAllUsers())
         setFilteredUsers(users)
-    }, [dispatch])
+    }, [dispatch, users])
 
     return (
         <Fragment>
