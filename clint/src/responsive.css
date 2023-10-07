@@ -56,4 +56,12 @@
     align-items: center;
     justify-content: center;
   }
+  .login {
+    margin-top: 8rem;
+  }
+  .password-input {
+    position: relative;
+    margin-left: 0 !important;
+    margin-right: -4rem !important;
+  }
 }
