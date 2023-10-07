@@ -29,8 +29,8 @@ import { userRoute } from "./router/UserRoute.js";
 app.use("/api/v1", adminRotuer);
 app.use("/api/v1", userRoute);
 
-// app.use(express.static(path.join(__dirname, "../clint/build")));
+app.use(express.static(path.join(__dirname, "../clint/build")));
 
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "../clint/build/index.html"));
-// });
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../clint/build/index.html"));
+});
