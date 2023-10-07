@@ -11,7 +11,7 @@ export const connectDatabase = () => {
   mongoose
     .connect(process.env.MONGO_URL, options)
     .then((c) => {
-      console.log(`mongo is connected on ${c.connection.host}`);
+      console.log(`mongo is connected`);
     })
     .catch((error) => {
       console.log(error);
